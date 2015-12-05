@@ -1,0 +1,21 @@
+#include "opencv2/highgui/highgui.hpp"
+#include "opencv2/core/core.hpp"
+#include "opencv2/opencv.hpp"
+#include "opencv2/imgproc/imgproc.hpp"
+#include "opencv2/gpu/gpu.hpp"
+
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+using namespace cv;
+
+int main(int argc, char** argv)	{
+
+	cout << "The Camera calibration program." << endl;
+	cvFindChessboardCorners()
+
+	waitKey(0);
+	return 0;
+}
