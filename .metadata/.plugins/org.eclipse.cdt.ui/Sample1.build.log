@@ -1,7 +1,1 @@
-17:04:51 **** Incremental Build of configuration Debug for project Sample1 ****
-Info: Internal Builder is used for build
-g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
-g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample1.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
-
-17:04:53 Build Finished (took 1s.300ms)
-
+Info: Nothing to build for Sample1

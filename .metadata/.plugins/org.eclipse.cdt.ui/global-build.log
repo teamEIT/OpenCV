@@ -82,3 +82,64 @@ g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sa
 Info: Internal Builder is used for build
 g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
 g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample1.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
+19:40:31 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
+g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample1.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
+Info: Nothing to build for Sample1
+Info: Nothing to build for Sample1
+19:44:36 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
+g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample1.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
+Info: Nothing to build for Sample1
+Info: Nothing to build for Sample1
+19:52:35 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
+g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample1.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
+20:40:49 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
+..\Main.cpp: In function 'int main(int, char**)':
+..\Main.cpp:31:29: error: 'COLOR_BGR2GRAY' was not declared in this scope
+  cvtColor(image, grayImage, COLOR_BGR2GRAY); // convert RGB to gray
+                             ^
+..\Main.cpp:31:43: error: 'cvtColor' was not declared in this scope
+  cvtColor(image, grayImage, COLOR_BGR2GRAY); // convert RGB to gray
+                                           ^
+20:41:33 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
+g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample1.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
+Info: Nothing to build for Sample1
+22:03:59 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
+g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample1.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
+Info: Nothing to build for Sample1
+22:06:22 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
+g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample1.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
+Info: Nothing to build for Sample1
+22:07:17 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
+g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample1.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
+Info: Nothing to build for Sample1
+22:11:24 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
+g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample1.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
+Info: Nothing to build for Sample1
+22:13:32 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
+g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample1.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
+Info: Nothing to build for Sample1
+22:14:28 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
+g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample1.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
+Info: Nothing to build for Sample1
