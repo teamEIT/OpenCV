@@ -1,0 +1,84 @@
+15:57:45 **** Rebuild of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
+In file included from ..\Main.cpp:1:0:
+D:\Quoc\Master\Research\OpenCV\opencv3\sources\include/opencv2/opencv.hpp:46:28: fatal error: opencv2/core.hpp: No such file or directory
+ #include "opencv2/core.hpp"
+                            ^
+compilation terminated.
+15:58:26 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
+In file included from ..\Main.cpp:1:0:
+D:\Quoc\Master\Research\OpenCV\opencv3\sources\include/opencv2\opencv.hpp:46:28: fatal error: opencv2/core.hpp: No such file or directory
+ #include "opencv2/core.hpp"
+                            ^
+compilation terminated.
+15:58:28 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
+In file included from ..\Main.cpp:1:0:
+D:\Quoc\Master\Research\OpenCV\opencv3\sources\include/opencv2\opencv.hpp:46:28: fatal error: opencv2/core.hpp: No such file or directory
+ #include "opencv2/core.hpp"
+                            ^
+compilation terminated.
+15:59:05 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
+In file included from ..\Main.cpp:1:0:
+D:\Quoc\Master\Research\OpenCV\opencv3\sources\include/opencv2\opencv.hpp:46:28: fatal error: opencv2\core.hpp: No such file or directory
+ #include "opencv2\core.hpp"
+                            ^
+compilation terminated.
+16:46:35 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
+g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample1.exe Main.o -llibopencv_core300.dll -llibopencv_highgui300.dll -llibopencv_imgproc300.dll -llibopencv_imgcodecs300.dll 
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -llibopencv_core300.dll
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -llibopencv_highgui300.dll
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -llibopencv_imgproc300.dll
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -llibopencv_imgcodecs300.dll
+collect2.exe: error: ld returned 1 exit status
+16:53:04 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\bin" -o Sample1.exe Main.o -llibopencv_core300.dll -llibopencv_highgui300.dll -llibopencv_imgproc300.dll -llibopencv_imgcodecs300.dll 
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -llibopencv_core300.dll
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -llibopencv_highgui300.dll
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -llibopencv_imgproc300.dll
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -llibopencv_imgcodecs300.dll
+collect2.exe: error: ld returned 1 exit status
+16:53:09 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\bin" -o Sample1.exe Main.o -llibopencv_core300.dll -llibopencv_highgui300.dll -llibopencv_imgproc300.dll -llibopencv_imgcodecs300.dll 
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -llibopencv_core300.dll
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -llibopencv_highgui300.dll
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -llibopencv_imgproc300.dll
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -llibopencv_imgcodecs300.dll
+collect2.exe: error: ld returned 1 exit status
+16:54:12 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\bin" -o Sample1.exe Main.o -llibopencv_core300.dll -llibopencv_highgui300.dll -llibopencv_imgproc300.dll -llibopencv_imgcodecs300.dll 
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -llibopencv_core300.dll
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -llibopencv_highgui300.dll
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -llibopencv_imgproc300.dll
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -llibopencv_imgcodecs300.dll
+collect2.exe: error: ld returned 1 exit status
+16:57:20 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\bin" -o Sample1.exe Main.o -llibopencv_core300.dll -llibopencv_highgui300.dll -llibopencv_imgproc300.dll -llibopencv_imgcodecs300.dll 
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -llibopencv_core300.dll
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -llibopencv_highgui300.dll
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -llibopencv_imgproc300.dll
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -llibopencv_imgcodecs300.dll
+collect2.exe: error: ld returned 1 exit status
+16:57:47 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\bin" -o Sample1.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
+Info: Nothing to build for Sample1
+16:58:32 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample1.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
+17:04:51 **** Incremental Build of configuration Debug for project Sample1 ****
+Info: Internal Builder is used for build
+g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
+g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample1.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
