@@ -1,3 +1,4 @@
+// Read image, format to gray, hsv, cmyk
 #include "opencv2/highgui/highgui.hpp"
 #include "opencv2/core/core.hpp"
 #include "opencv2/opencv.hpp"
@@ -44,7 +45,7 @@ int main(int argc, char** argv)	{
 	string hsvImageName = ("logoHSV.png");
 	string windowName3("HSV image");
 
-	cvtColor(image, hsvImage, COLOR_BGR2HSV); // convert RGB to gray
+	cvtColor(image, hsvImage, COLOR_BGR2HSV); // convert RGB to hsv
 	imwrite(hsvImageName, hsvImage); // Save the gray image
 
 	namedWindow(windowName3.c_str(), CV_WINDOW_AUTOSIZE);
@@ -55,7 +56,7 @@ int main(int argc, char** argv)	{
 	string ycrcbImageName = ("logoCMYK.png");
 	string windowName4("CMYK image");
 
-	cvtColor(image, ycrcbImage, CV_BGR2YCrCb); // convert RGB to gray
+	cvtColor(image, ycrcbImage, CV_BGR2YCrCb); // convert RGB to cmyk
 	imwrite(ycrcbImageName, ycrcbImage); // Save the gray image
 
 	namedWindow(windowName4.c_str(), CV_WINDOW_AUTOSIZE);
