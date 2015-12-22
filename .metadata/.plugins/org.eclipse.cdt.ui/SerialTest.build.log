@@ -1,0 +1,10 @@
+21:55:58 **** Incremental Build of configuration Debug for project SerialTest ****
+make all 
+Building target: SerialTest
+Invoking: Cross G++ Linker
+g++  -o "SerialTest"  ./Main.o ./Serial.o   
+Finished building target: SerialTest
+ 
+
+21:55:59 Build Finished (took 1s.131ms)
+

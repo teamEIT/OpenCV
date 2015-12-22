@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;TCPIP/Client&apos; to &apos;Client.cpp&apos;" description="Rename resource &apos;Client&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Client" name="Client.cpp" stamp="1450242867437" updateReferences="true"/>
+</session>

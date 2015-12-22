@@ -1,0 +1,13 @@
+21:52:31 **** Build of configuration Debug for project TCPIP ****
+make all 
+Building file: ../Client.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Client.d" -MT"Client.o" -o "Client.o" "../Client.cpp"
+../Client.cpp:1:24: fatal error: sys/socket.h: No such file or directory
+ #include <sys/socket.h>
+                        ^
+compilation terminated.
+make: *** [Client.o] Error 1
+
+21:52:32 Build Finished (took 683ms)
+

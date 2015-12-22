@@ -1,0 +1,18 @@
+/*
+ * Main.cpp
+ *
+ *  Created on: Dec 21, 2015
+ *      Author: Administrator
+ */
+#include <iostream>
+#include <stdio.h>
+#include <windows.h>
+
+int main() {
+	HANDLE hSerial;
+	hSerial = CreateFile("COM1", GENERIC_READ, 0, 0, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, 0);
+	if(hSerial == INVALID_HANDLE_VALUE) {
+
+	}
+	return 0;
+}

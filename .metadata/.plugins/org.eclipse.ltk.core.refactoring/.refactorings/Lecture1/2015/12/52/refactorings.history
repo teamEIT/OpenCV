@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Lecture1/src/euclid&apos; to &apos;euclid.h&apos;" description="Rename resource &apos;euclid&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/euclid" name="euclid.h" stamp="1450791426585" updateReferences="true"/>
+</session>

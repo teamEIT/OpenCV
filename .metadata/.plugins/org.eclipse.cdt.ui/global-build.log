@@ -1,223 +1,83 @@
-12:17:21 **** Clean-only build of configuration Debug for project Sample3 ****
-rm -rf Main.o Main.d Sample3.exe 
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-12:17:25 **** Rebuild of configuration Debug for project Sample3 ****
+15:43:08 **** Rebuild of configuration Debug for project Lecture1 ****
 Info: Internal Builder is used for build
-g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
-g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample3.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
-Info: Nothing to build for Sample3
-Info: Nothing to build for Sample3
-Info: Nothing to build for Sample3
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-Info: Nothing to build for Sample3
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-12:29:34 **** Incremental Build of configuration Debug for project Sample3 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lecture1.o" "..\\src\\Lecture1.c" 
+gcc -o Lecture1.exe "src\\Lecture1.o" 
+Info: Nothing to build for Lecture1
+Info: Nothing to build for Lecture1
+15:50:00 **** Incremental Build of configuration Debug for project Lecture1 ****
 Info: Internal Builder is used for build
-g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
-g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample3.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
-Info: Nothing to build for Sample3
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-12:30:17 **** Incremental Build of configuration Debug for project Sample3 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lecture1.o" "..\\src\\Lecture1.c" 
+gcc -o Lecture1.exe "src\\Lecture1.o" 
+15:50:09 **** Incremental Build of configuration Debug for project Lecture1 ****
 Info: Internal Builder is used for build
-g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
-g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample3.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
-Info: Nothing to build for Sample3
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-12:30:47 **** Incremental Build of configuration Debug for project Sample3 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lecture1.o" "..\\src\\Lecture1.c" 
+gcc -o Lecture1.exe "src\\Lecture1.o" 
+15:50:15 **** Incremental Build of configuration Debug for project Lecture1 ****
 Info: Internal Builder is used for build
-g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
-g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample3.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
-Info: Nothing to build for Sample3
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-Info: Nothing to build for Sample3
-12:31:02 **** Incremental Build of configuration Debug for project Sample3 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lecture1.o" "..\\src\\Lecture1.c" 
+..\src\Lecture1.c: In function 'main':
+..\src\Lecture1.c:16:2: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+  printf("%f\n",'\x41');
+  ^
+gcc -o Lecture1.exe "src\\Lecture1.o" 
+15:50:31 **** Incremental Build of configuration Debug for project Lecture1 ****
 Info: Internal Builder is used for build
-g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
-g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample3.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-12:31:17 **** Incremental Build of configuration Debug for project Sample3 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lecture1.o" "..\\src\\Lecture1.c" 
+gcc -o Lecture1.exe "src\\Lecture1.o" 
+16:27:58 **** Incremental Build of configuration Debug for project Lecture1 ****
 Info: Internal Builder is used for build
-g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
-g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample3.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
-Info: Nothing to build for Sample3
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lecture1.o" "..\\src\\Lecture1.c" 
+gcc -o Lecture1.exe "src\\Lecture1.o" 
+Info: Nothing to build for Lecture1
+Info: Nothing to build for Lecture1
+Info: Nothing to build for Lecture1
+Info: Nothing to build for Lecture1
 Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-Info: Nothing to build for Sample3
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-Info: Nothing to build for Sample3
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-12:31:45 **** Incremental Build of configuration Debug for project Sample3 ****
+21:43:13 **** Incremental Build of configuration Debug for project Lecture1 ****
 Info: Internal Builder is used for build
-g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
-g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample3.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
-C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Sample3.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-12:31:48 **** Incremental Build of configuration Debug for project Sample3 ****
-Info: Internal Builder is used for build
-g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample3.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
-C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Sample3.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-12:32:03 **** Incremental Build of configuration Debug for project Sample3 ****
-Info: Internal Builder is used for build
-g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
-g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample3.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
-C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Sample3.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-12:32:11 **** Incremental Build of configuration Debug for project Sample3 ****
-Info: Internal Builder is used for build
-g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample3.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
-Info: Nothing to build for Sample3
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-12:32:22 **** Incremental Build of configuration Debug for project Sample3 ****
-Info: Internal Builder is used for build
-g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
-g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample3.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
-Info: Nothing to build for Sample3
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-12:32:45 **** Incremental Build of configuration Debug for project Sample3 ****
-Info: Internal Builder is used for build
-g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
-g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample3.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
-Info: Nothing to build for Sample3
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-Info: Nothing to build for Sample3
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-12:32:58 **** Incremental Build of configuration Debug for project Sample3 ****
-Info: Internal Builder is used for build
-g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
-g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample3.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
-Info: Nothing to build for Sample3
-Info: Nothing to build for Sample3
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-12:33:13 **** Incremental Build of configuration Debug for project Sample3 ****
-Info: Internal Builder is used for build
-g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
-g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample3.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
-Info: Nothing to build for Sample3
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-Info: Nothing to build for Sample3
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-12:33:30 **** Incremental Build of configuration Debug for project Sample3 ****
-Info: Internal Builder is used for build
-g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
-g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample3.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
-Info: Nothing to build for Sample3
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-12:33:45 **** Incremental Build of configuration Debug for project Sample3 ****
-Info: Internal Builder is used for build
-g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
-g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample3.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-Info: Nothing to build for Sample3
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-12:37:45 **** Incremental Build of configuration Debug for project Sample3 ****
-Info: Internal Builder is used for build
-g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
-g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample3.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
-Info: Nothing to build for Sample3
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-12:37:55 **** Incremental Build of configuration Debug for project Sample3 ****
-Info: Internal Builder is used for build
-g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
-g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample3.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
-Info: Nothing to build for Sample3
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-12:38:05 **** Incremental Build of configuration Debug for project Sample3 ****
-Info: Internal Builder is used for build
-g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
-g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample3.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
-Info: Nothing to build for Sample3
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-Info: Nothing to build for Sample3
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-12:38:14 **** Incremental Build of configuration Debug for project Sample3 ****
-Info: Internal Builder is used for build
-g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
-g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample3.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
-Info: Nothing to build for Sample3
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-12:38:27 **** Incremental Build of configuration Debug for project Sample3 ****
-Info: Internal Builder is used for build
-g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
-g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample3.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
-Info: Nothing to build for Sample3
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-12:43:16 **** Incremental Build of configuration Debug for project Sample3 ****
-Info: Internal Builder is used for build
-g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
-g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample3.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
-Info: Nothing to build for Sample3
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for Sample1
-Info: Nothing to build for Sample2
-Info: Nothing to build for Sample3
-23:16:49 **** Rebuild of configuration Debug for project Sample4 ****
-Info: Internal Builder is used for build
-g++ "-ID:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\build\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
-g++ "-LD:\\Quoc\\Master\\Research\\OpenCV\\opencv3\\sources\\release\\lib" -o Sample4.exe Main.o -llibopencv_core300 -llibopencv_highgui300 -llibopencv_imgproc300 -llibopencv_imgcodecs300 
-Info: Nothing to build for Sample3
-Info: Nothing to build for CameraCalibration
-Info: Nothing to build for CameraCalibration
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lecture1.o" "..\\src\\Lecture1.c" 
+gcc -o Lecture1.exe "src\\Lecture1.o" 
 Info: Nothing to build for Sample1
 Info: Nothing to build for Sample2
 Info: Nothing to build for Sample3
 Info: Nothing to build for Sample4
+Info: Nothing to build for Sample5
+21:43:16 **** Incremental Build of configuration Debug for project SerialTest ****
+make all 
+Building file: ../Main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.cpp"
+../Main.cpp: In function 'int main(int, _TCHAR**)':
+../Main.cpp:17:47: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+  Serial* serialPort = new Serial("\\\\.\\COM2");
+                                               ^
+Finished building: ../Main.cpp
+ 
+Building target: SerialTest
+Invoking: Cross G++ Linker
+g++  -o "SerialTest"  ./Main.o ./Serial.o   
+c:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file SerialTest.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+make: *** [SerialTest] Error 1
+Info: Nothing to build for CameraCalibration
+Info: Nothing to build for Lecture1
+Info: Nothing to build for Sample1
+Info: Nothing to build for Sample2
+Info: Nothing to build for Sample3
 Info: Nothing to build for Sample4
-Info: Nothing to build for Sample4
+Info: Nothing to build for Sample5
+21:55:58 **** Incremental Build of configuration Debug for project SerialTest ****
+make all 
+Building target: SerialTest
+Invoking: Cross G++ Linker
+g++  -o "SerialTest"  ./Main.o ./Serial.o   
+Finished building target: SerialTest
+ 
+Info: Nothing to build for Lecture1
+Info: Nothing to build for Lecture1
+Info: Nothing to build for Lecture1
+Info: Nothing to build for Lecture1
+Info: Nothing to build for Lecture1
+Info: Nothing to build for Lecture1
+Info: Nothing to build for Lecture1
+Info: Nothing to build for Lecture1
