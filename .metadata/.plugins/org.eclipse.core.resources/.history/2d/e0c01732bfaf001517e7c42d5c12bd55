@@ -1,0 +1,40 @@
+#include "opencv2/highgui/highgui.hpp"
+#include "opencv2/imgproc/imgproc.hpp"
+#include "opencv2/objdetect/objdetect.hpp"
+
+#include <iostream>
+#include <string>
+#include <stdio.h>
+#include <stdlib.h>
+
+using namespace std;
+using namespace cv;
+
+Mat src;
+Mat srcGray;
+int thresh = 100;
+int maxThresh = 255;
+RNG rng(12345); // Random number generator
+
+/** Function Headers*/
+void threshCallback(int, void*);
+
+int main(int argc, char** argv)	{
+
+	cout << "Chuong trinh dieu khien do sang va do tuong phan." << endl;
+	string imageName("bw.jpg");
+	string windowName("Original image");
+
+	waitKey(0);
+	return 0;
+}
+
+void threshCallback(int, void*)
+{
+	Mat thresholdOutput;
+	vector<vector<Point> > contours;
+	vector<Vec4i> hierarchy;
+
+	// Detect edges using Threshold
+	threshold()
+}

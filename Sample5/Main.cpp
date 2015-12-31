@@ -4,12 +4,20 @@
 
 #include <iostream>
 #include <string>
+#include <stdio.h>
+#include <stdlib.h>
 
 using namespace std;
 using namespace cv;
 
+Mat src;
+Mat srcGray;
+int thresh = 100;
+int maxThresh = 255;
+RNG rng(12345); // Random number generator
+
 /** Function Headers*/
-void detectAndDisplay(Mat frame);
+void threshCallback(int, void*);
 
 int main(int argc, char** argv)	{
 
@@ -19,4 +27,16 @@ int main(int argc, char** argv)	{
 
 	waitKey(0);
 	return 0;
+}
+
+void threshCallback(int, void*)
+{
+	Mat thresholdOutput;
+	vector<vector<Point> > contours;
+	vector<Vec4i> hierarchy;
+
+	// Detect edges using Threshold
+	threshold(srcGray, thresholdOutput, thresh, maxThresh, THRESH_BINARY);
+	// Find contours
+	findContours(thresholdOutput, contours, hierarchy, CV_RETR_TREE, CV_CHAIN_APPROX_SIMPLE, Point(0, 0));
 }
